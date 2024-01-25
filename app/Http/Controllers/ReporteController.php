@@ -35,7 +35,7 @@ class ReporteController extends Controller
         
             if ($imagen) {
                 // Almacenar la imagen en el directorio storage
-                $imagenNombre = $imagen->store('storage/app/public');
+                $imagenNombre = $imagen->store('app/public');
         
                 // Actualizar la ruta para almacenar en la base de datos
                 $imagenRuta = Storage::url($imagenNombre);
