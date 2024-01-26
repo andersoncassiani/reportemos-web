@@ -15,7 +15,6 @@ use Illuminate\Pagination\LengthAwarePaginator;
 class ReporteController extends Controller
 {
     //
-
     public function enviarReporte(Request $request){
               
         // return $request;
