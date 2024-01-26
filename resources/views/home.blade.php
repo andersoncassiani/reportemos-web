@@ -93,7 +93,7 @@
         @if(count($reporte) > 0)
     @foreach($reporte as $repo)
         <div class="col-md-3 col-sm-6 col-lg-3 mb-2">
-            <img class="rounded" width="90px" height="105px" src="{{ asset('storage/reportes') . '/' . $reporte->imagen }}" alt="Imagen Reporte">
+            <img class="rounded" width="90px" height="105px" src="{{ asset('storage/reportes') . '/' . $repo->imagen }}" alt="Imagen Reporte">
         </div>
 
         <div class="col-md-6 col-sm-6 col-lg-6">
