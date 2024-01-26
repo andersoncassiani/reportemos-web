@@ -457,7 +457,7 @@
     <div class="card-group">
     @forelse($reportes as $reporte)
         <div class="card mb-3 justify-content-center">
-            <img src="{{route('homeUser').''.$reporte->imagen}}" class="card-img-top" alt="Reporte Imagen" height="290px">
+            <img src="{{ asset('storage/reportes') . '/' . $reporte->imagen }}" class="card-img-top" alt="Reporte Imagen" height="290px">
             <div class="card-body">
                 <h5 class="card-title text-success fw-bold text-center"> <i class="bi bi-geo-alt-fill mx-1"></i>{{ $reporte->direccion }}</h5>
                 <p class="card-text  text-justify text-center">{{ $reporte->descripcion }}</p>

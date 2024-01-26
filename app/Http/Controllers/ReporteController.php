@@ -17,8 +17,7 @@ class ReporteController extends Controller
     //
 
     public function enviarReporte(Request $request){
-      
-        
+              
         // return $request;
         // try {
             // Validar la solicitud y guardar el evento en la base de datos
@@ -35,7 +34,7 @@ class ReporteController extends Controller
         
             if ($imagen) {
                 // Almacenar la imagen en el directorio storage
-                $imagenNombre = $imagen->store('public');
+                $imagenNombre = $imagen->store('public/reportes');
         
                 // Actualizar la ruta para almacenar en la base de datos
                 $imagenRuta = Storage::url($imagenNombre);
@@ -104,7 +103,7 @@ public function actualizarReporte($id, Request $request)
             $imagen = $request->file('imagen');
             
             // Almacenar la imagen en el directorio storage
-            $imagenNombre = $imagen->store('public');
+            $imagenNombre = $imagen->store('public/reportes');
     
             // Actualizar la ruta para almacenar en la base de datos
             $imagenRuta = Storage::url($imagenNombre);
