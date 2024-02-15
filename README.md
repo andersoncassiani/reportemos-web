@@ -10,13 +10,13 @@ Reportemos Web es un proyecto dedicado al cuidado y preservación del medio ambi
 >
 
 
-1. Clonar este repositorio: ``` python https://github.com/andersoncassiani/reportemos-web.git ```
+1. Clonar este repositorio: <b> python https://github.com/andersoncassiani/reportemos-web.git </b>
 2. Ubicar el directorio de donde clonaste o descargaste la carpeta del repositorio
-3. Instalar paquetes  en cado de que no los tengas: Instalar Composer | Instalar Node.js
-4. Congigura tu cliente ID de Google para hacer crear cuanta y hacer inicio de sesion con tu cuenta de Google entra a este enlace: https://console.cloud.google.com/
+3. Instalar paquetes  en cado de que no los tengas: <b> Instalar Composer | Instalar Node.js </b>
+4. Congigura tu cliente ID de Google para hacer crear cuanta y hacer inicio de sesion con tu cuenta de Google entra a este enlace: <b> https://console.cloud.google.com/ </b>
 5. Correr la migracion con:  php artisan migrate
-6. Crea storage link para almacenar las imagenes con el comando: php artisan storage:link
-7. Corre al web e iniciar tu servidor local con el comando: php artisan serve
+6. Crea storage link para almacenar las imagenes con el comando: <b> php artisan storage:link </b>
+7. Corre al web e iniciar tu servidor local con el comando: <b> php artisan serve </b>
 
 ## Vista del Dashboard
 <img src="https://github.com/andersoncassiani/reportemos-web/blob/main/public/img/pagina-home.png" width="990" alt="Reportemos Web">
